@@ -1,4 +1,17 @@
-dist
-build
-.idea
-__pycache__
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+
+# Build artifacts and specs
+build/
+dist/
+*.spec
+
+# System/IDE files
+.DS_Store
+
+

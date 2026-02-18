@@ -279,7 +279,7 @@ class MainWindow(QtWidgets.QDialog, Ui_PredatorSense):
             self.cpuFanMode = PFS.Manual
             self.cpu_manual.setChecked(True)
         else:
-            print("Warning: Unknow CPU fan mode value '" + self.cpuMode + "'")
+            print("Warning: Unknow CPU fan mode value '" + str(self.cpuMode) + "'")
             # self.cpuauto()
         
         if self.gpuMode == int(ECS.GPU_AUTO_MODE.value, 0) or self.gpuMode == int('0x00', 0):

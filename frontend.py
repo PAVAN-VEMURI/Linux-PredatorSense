@@ -450,19 +450,19 @@ class Ui_PredatorSense(object):
         ##------------------------------##
 
         self.exit_button = QtWidgets.QPushButton(self.tab)
-        self.exit_button.setGeometry(QtCore.QRect(self.WIDTH/2-25, 520, 50, 25))
+        self.exit_button.setGeometry(QtCore.QRect(self.WIDTH//2-25, 520, 50, 25))
         self.exit_button.setFont(boldfont)
         self.exit_button.setObjectName("pushButton")
         self.exit_button.setText("Exit")
 
         self.reset_button = QtWidgets.QPushButton(self.tab)
-        self.reset_button.setGeometry(QtCore.QRect(self.WIDTH/2-40, 360, 80, 25))
+        self.reset_button.setGeometry(QtCore.QRect(self.WIDTH//2-40, 360, 80, 25))
         self.reset_button.setFont(font)
         self.reset_button.setObjectName("restPushButton")
         self.reset_button.setText("Reset")  
 
         self.undervolt_button = QtWidgets.QPushButton(self.tab)
-        self.undervolt_button.setGeometry(QtCore.QRect(self.WIDTH/2-40, 385, 80, 25))
+        self.undervolt_button.setGeometry(QtCore.QRect(self.WIDTH//2-40, 385, 80, 25))
         self.undervolt_button.setFont(font)
         self.undervolt_button.setObjectName("undervoltPushButton")
         self.undervolt_button.setText("Undervolt")
